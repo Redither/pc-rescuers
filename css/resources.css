@@ -1,3 +1,22 @@
+::root {
+    --b-c--dark: #0B0C10;
+    --b-c--bluegrey: #1F2833;
+    --b-c--ligth: #1F2833;
+    --b-c--cyan: #66FCF1;
+    --b-c--dcyanL: #45A29E;
+    --b-c--white: #FFFFFF;
+    --b-f--h1: 800 48px/57.6px "Jura", sans-serif;
+    --b-f--h2: 800 36px/43.2px "Jura", sans-serif;
+    --b-f--h3: 800 20px/24px "Jura", sans-serif;
+    --b-f--txt: 500 16px/19.2px "Montserrat", sans-serif;
+    @media (min-width: 1023px) {
+        --b-f--h1: 800 52px/62.5px "Jura", sans-serif;
+        --b-f--h2: 800 48px/57.6px "Jura", sans-serif;
+        --b-f--h3: 800 24px/28.8px "Jura", sans-serif;
+        --b-f--txt: 500 18px/21.6px "Montserrat", sans-serif;
+    }
+}
+
 @font-face {
     font-family: 'Jura';
     src: url('../fonts/Jura-Regular.eot');
