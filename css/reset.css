@@ -43,3 +43,20 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+header {
+    position: sticky;
+    top: 0;
+}
+h1 {
+    font: var(--b-f--h1);
+    color: var(--b-c--white);
+}
+h3 {
+    font: var(--b-f--h3);
+    color: var(--b-c--white);
+}
+p, span, a {
+    font: var(--b-f--txt);
+    color: var(--b-c--white);
+}
