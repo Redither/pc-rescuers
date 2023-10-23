@@ -26,7 +26,9 @@ html {
     height: 100%;
 }
 body {
+    overflow-x: hidden;
     line-height: 1;
+    background-color: var(--b-c--dark);
 }
 ol, ul {
     list-style: none;
@@ -47,16 +49,32 @@ table {
 header {
     position: sticky;
     top: 0;
+    padding: 1em 0;
+    background-color: var(--b-c--dark);
+    box-shadow: 0px 5px 5px var(--b-c--dark);
 }
 h1 {
     font: var(--b-f--h1);
     color: var(--b-c--white);
+    text-shadow: 3px 3px 5px #66FCF1;
+    margin-bottom: 0.5em  ;
+}
+h2 {
+    font: var(--b-f--h2);
+    color: var(--b-c--white);
+    margin-bottom: 2em;
+    text-shadow: 3px 3px 5px #66FCF1;
 }
 h3 {
     font: var(--b-f--h3);
     color: var(--b-c--white);
 }
 p, span, a {
+    display: block;
     font: var(--b-f--txt);
     color: var(--b-c--white);
+}
+section {
+    padding-top: 7em;
+    margin-bottom: 10em;
 }

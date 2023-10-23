@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/resources.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Ремонт копьютеров, ноутбуков | пк-спасатели</title>
 </head>
 <body>
     <header>
         <div class="container"><a href=""><img src="" alt=""></a></div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#about">О компании</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#adv">Преимущества</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
@@ -18,50 +26,50 @@
                 <h1>Ремонт компьютеров и ноутбуков с выездом в Москве!</h1>
                 <h2>ПК-спасатели - ваш надежный партнер в мире компьютерных технологий</h2>
                 <p>Наша команда профессионалов готова решить любую проблему с вашим компьютером, гарантируя максимальную эффективность и оперативность. Мы ценим каждого клиента и стремимся к его полной удовлетворенности, предлагая индивидуальный подход и выгодные условия сотрудничества. Доверьте свои технические задачи ПК-спасателям и наслаждайтесь безупречной работой вашего компьютера!</p>
-                <a href="">Заказать консультацию</a>
+                <a href="" class="brand-btn">Заказать консультацию</a>
             </div>
         </section>
         <section>
             <div class="container">
                 <h2>Наши услуги</h2>
                 <ul>
-                    <li>
+                    <li class="card">
                         <img src="./img/services/virus.jpg" alt="Удалить вирусы">
                         <h3>УСТРАНЕНИЕ ВИРУСОВ</h3>
                         <p>Удалим вирусы и другое вредоносное ПО с вашего компьютера</p>
                         <span>от 1500 ₽</span>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/services/soft.jpg" alt="Помощь с установкой программ">
                         <h3>УСТАНОВКА ПРОГРАММ</h3>
                         <p>Установим любое программное обеспечение которое вам нужно</p>
                         <span>от 1000 ₽</span>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/services/diagnostic.jpg" alt="Проверка компьютера на неполадки">
                         <h3>ДИАГНОСТИКА КОМПЬЮТЕРА</h3>
                         <p>Проведем полную диагностику компьютера, определим причину неисправности</p>
                         <span>от 500 ₽</span>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/services/build.jpg" alt="Собрать пк на заказ">
                         <h3>СБОРКА КОМПЬЮТЕРА НА ЗАКАЗ</h3>
                         <p>Соберём компьютер под ваши требования быстро и не дорого</p>
                         <span>от 1500 ₽</span>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/services/hdd.jpg" alt="Заменить жёсткий диск">
                         <h3>ЗАМЕНА ЖЕСТКОГО ДИСКА</h3>
                         <p>Заменим ваш жёсткий на новый или перенесу ваши данные</p>
                         <span>от 3000 ₽</span>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/services/data.jpg" alt="Восстановить удалённый файл, програму">
                         <h3>ВОССТАНОВЛЕНИЕ ДАННЫХ</h3>
                         <p>Восстановим случайно удаленные файлы или с неисправного жесткого диска</p>
                         <span>от 5000 ₽</span>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/services/cleaning.jpg" alt="Почистить копьютер от пыли">
                         <h3>ЧИСТКА НОУТБУКА ИЛИ ПК</h3>
                         <p>Очищу ваш компьютер от пыли и заменю термопасту</p>
@@ -77,28 +85,28 @@
         <section>
             <div class="container">
                 <h2>Почему мы?</h2>
-                <ul>
-                    <li>
+                <ul class="adv_cards">
+                    <li class="card">
                         <img src="./img/adv/ability.png" alt="Мастера ремонта пк и ноутбуков">
                         <h3>Опытные мастера</h3>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/adv/quality.png" alt="Качественный ремонт пк и ноутбуков">
                         <h3>Качество с гарантией</h3>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/adv/sales.png" alt="Ремонт пк и ноутбуков недорого">
                         <h3>Доступные цены</h3>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/adv/decision.png" alt="Персональные предложения по ремонту и обслуживанию">
                         <h3>Индивидуальный подход</h3>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/adv/repair.png" alt="Срочный и быстрый ремонт пк и ноутбуков">
                         <h3>Быстрый ремонт</h3>
                     </li>
-                    <li>
+                    <li class="card">
                         <img src="./img/adv/business.png" alt="Восстановление данных, установка ПО, переустановка виндовс">
                         <h3>Полный спектр услуг</h3>
                     </li>

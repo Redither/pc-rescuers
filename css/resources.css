@@ -1,4 +1,4 @@
-::root {
+:root {
     --b-c--dark: #0B0C10;
     --b-c--bluegrey: #1F2833;
     --b-c--ligth: #1F2833;
@@ -15,8 +15,8 @@
         --b-f--h3: 800 24px/28.8px "Jura", sans-serif;
         --b-f--txt: 500 18px/21.6px "Montserrat", sans-serif;
     }
-}
-
+  }
+  
 @font-face {
     font-family: 'Jura';
     src: url('../fonts/Jura-Regular.eot');
