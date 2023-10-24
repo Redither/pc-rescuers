@@ -23,6 +23,14 @@ nav {
   gap: 3em;
 }
 
+.nav_links a {
+  transition: all .3s ease;
+}
+
+.nav_links a:hover {
+  color: var(--b-c--cyan);
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -50,6 +58,7 @@ nav {
   text-shadow: 3px 3px 5px #66FCF1;
   border-radius: 5px;
   margin-top: 3em;
+  transition: all .3s ease;
 }
 .brand-btn:hover {
   background-color: var(--b-c--dcyanL);
