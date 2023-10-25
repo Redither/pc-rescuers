@@ -157,6 +157,11 @@ h2 {
     text-shadow: 3px 3px 5px #66FCF1;
 }
 
+h2:nth-child(2) {
+    font: var(--b-f--h3);
+    color: var(--b-c--cyan);
+}
+
 h3 {
     font: var(--b-f--h3);
     color: var(--b-c--white);
@@ -179,6 +184,10 @@ section {
     z-index: 1;
     padding-top: 7em;
     margin-bottom: 10em;
+}
+
+section:first-child {
+    margin-bottom: 0;
 }
 
 canvas {
