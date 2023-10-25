@@ -318,6 +318,7 @@ nav {
     height: auto;
     padding: 0;
     margin: auto 0 8px auto;
+    z-index: inherit;
   }
 
   .nav_links {
