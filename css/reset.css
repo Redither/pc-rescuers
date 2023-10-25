@@ -143,6 +143,14 @@ header {
     z-index: 999;
 }
 
+footer {
+    position: relative;
+    padding-top: 5em;
+    z-index: 990;
+    background-color: var(--b-c--dark);
+    box-shadow: 0px -5px 5px var(--b-c--dark);
+}
+
 h1 {
     font: var(--b-f--h1);
     color: var(--b-c--white);

@@ -225,6 +225,48 @@ nav {
   margin-right: 10px;
 }
 
+.footer_call {  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 3em;
+}
+
+.footer_call p {
+  display: inline-flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 20px;
+  font-size: 24px;
+}
+
+.footer_call p a {
+  color: var(--b-c--cyan);
+  font-size: 100%;
+}
+
+.footer_social {
+  margin: 10px auto;
+  padding: 3em 0;
+  border-top: 1px solid var(--b-c--white);
+  border-bottom: 1px solid var(--b-c--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer_social a img {
+  height: 50px;
+}
+
+.copyrigth {
+  padding: 10px 0;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .container {
     /* padding-left: 40px; */
