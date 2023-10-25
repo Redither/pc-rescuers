@@ -194,3 +194,8 @@ canvas {
     display: block;
     vertical-align: bottom;
 }
+
+button {
+    background-color: transparent;
+    border: none;
+}
