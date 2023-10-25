@@ -1,0 +1,4 @@
+Sitemap: https://xn----8sbauphl0actcn.xn--p1ai/sitemap.xml
+User-agent: *
+Allow: https://xn----8sbauphl0actcn.xn--p1ai/
+Allow: https://пк-спасатели.рф/
