@@ -216,11 +216,13 @@ nav {
 .services_button.-prev {
   left: 0px;
   background-image: url(../img/btns/left.svg);
+  margin-left: 10px;
 }
 
 .services_button.-next {
   right: 0px;
   background-image: url(../img/btns/right.svg);
+  margin-right: 10px;
 }
 
 @media (min-width: 768px) {
