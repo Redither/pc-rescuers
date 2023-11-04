@@ -154,7 +154,7 @@ footer {
 h1 {
     font: var(--b-f--h1);
     color: var(--b-c--white);
-    text-shadow: 3px 3px 5px #66FCF1;
+    text-shadow: 3px 3px 5px var(--b-c--cyan);
     margin-bottom: 0.5em;
 }
 
@@ -162,12 +162,13 @@ h2 {
     font: var(--b-f--h2);
     color: var(--b-c--white);
     margin-bottom: 2em;
-    text-shadow: 3px 3px 5px #66FCF1;
+    text-shadow: 3px 3px 5px var(--b-c--cyan);
 }
 
 h2:nth-child(2) {
     font: var(--b-f--h3);
     color: var(--b-c--cyan);
+    /* text-shadow: 1px 1px 2px var(--b-c--cyan), -1px -1px 2px var(--b-c--cyan), 1px -1px 2px var(--b-c--cyan), -1px 1px 2px var(--b-c--cyan); */
 }
 
 h3 {

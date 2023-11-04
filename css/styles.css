@@ -149,29 +149,6 @@ nav {
   -webkit-animation: sliderShape 5s linear infinite;
 }
 
-@keyframes sliderShape {
-
-  0%,
-  100% {
-    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
-    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
-  }
-
-  34% {
-    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
-    transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
-  }
-
-  50% {
-    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
-  }
-
-  67% {
-    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
-    transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
-  }
-}
-
 #services .container {
   /* overflow-x: hidden; */
   position: relative;
@@ -267,6 +244,65 @@ nav {
   text-align: center;
 }
 
+label, form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  gap: 10px;
+}
+
+form {
+  background-color: var(--b-c--dark);
+  gap: 30px;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+form h2 {
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+input, textarea, form button {
+  border: 1px solid var(--b-c--cyan);
+  border-radius: 5px;
+  background-color: transparent;
+  color: var(--b-c--white);
+  padding: 10px 15px;
+  transition: all .3s ease;
+}
+form, input:focus, textarea:focus {
+  border: 1px solid var(--b-c--cyan);
+  /* outline: 1px solid var(--b-c--cyan); */
+  box-shadow: 3px 3px 5px var(--b-c--cyan), -3px -3px 5px var(--b-c--cyan), 3px -3px 5px var(--b-c--cyan), -3px 3px 5px var(--b-c--cyan);
+}
+
+form button {
+  color: var(--b-c--white);
+}
+
+.err {
+  border: 1px solid var(--b-c--red);
+  box-shadow: 3px 3px 5px var(--b-c--red), -3px -3px 5px var(--b-c--red), 3px -3px 5px var(--b-c--red), -3px 3px 5px var(--b-c--red);
+	animation: shake 0.5s;
+	animation-iteration-count: 1;
+}
+
+.req::after {
+  content: ' *';
+  color: var(--b-c--red);
+}
+
+.req-not::after {
+  content: ' (необязательно)';
+  color: var(--b-c--dcyanL);
+  font-size: 10px;
+}
+
 @media (min-width: 768px) {
   .container {
     /* padding-left: 40px; */
@@ -295,6 +331,9 @@ nav {
 
   .nav_links {
     max-width: 300px;
+  }
+  form {
+    padding: 30px;
   }
 }
 
@@ -345,6 +384,9 @@ nav {
     top: calc(57.6px + 96px);
     width: 40px;
   }
+  form {
+    padding: 40px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -363,6 +405,9 @@ nav {
 
   .anim-caple {
     margin-top: -15em;
+  }
+  form {
+    padding: 60px;
   }
 }
 
