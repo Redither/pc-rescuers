@@ -55,7 +55,7 @@ async function sendData(data) {
     } else if (data.name == '') {
         alert(document.getElementById('name_input'));
     } else {
-        fetch('http://127.0.0.1:5000/ticket/', {
+        fetch('https://restapi.redither.site/ticket/', {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {
