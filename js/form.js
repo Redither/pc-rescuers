@@ -40,8 +40,6 @@ function serialize(data) {
 }
 
 function alert(element) {
-    console.log(element);
-    console.log(element.classList);
     element.classList.add('err');
     setTimeout(() => {element.classList.remove('err')}, 500);
 }
