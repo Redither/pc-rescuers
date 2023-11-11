@@ -312,6 +312,59 @@ form button {
   font-size: 10px;
 }
 
+#menu_btn {
+  cursor: pointer;
+  height: 27px;
+  width: 27px;
+  margin: auto 0 auto auto;
+  overflow: visible;
+  position: relative;
+  z-index: 2;
+}
+#menu_btn span, #menu_btn span:before, #menu_btn span:after {
+  background: #fff;
+  display: block;
+  height: 2px;
+  opacity: 1;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+#menu_btn span:before, #menu_btn span:after {
+  content: '';
+}
+#menu_btn span:before {
+  left: 0px;
+  top: -10px;
+  width: 27px;
+}
+#menu_btn span {
+  right: 0px;
+  top: 13px;
+  width: 27px;
+}
+#menu_btn span:after {
+  left: 0px;
+  top: 10px;
+  width: 27px;
+}
+#menu_btn.close span:before {
+  top: 0px;
+  transform: rotate(90deg);
+  width: 27px;
+}
+#menu_btn.close span {
+  transform: rotate(-45deg);
+  top: 13px;
+  width: 27px;
+}
+#menu_btn.close span:after {
+  top: 0px;
+  left: 0;
+  transform: rotate(90deg);
+  opacity: 0;
+  width: 0;
+}
+
 @media (min-width: 768px) {
   .container {
     /* padding-left: 40px; */

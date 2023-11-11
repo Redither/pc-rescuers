@@ -47,42 +47,9 @@
                     <li><a href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
-            <button class="btn-nav" id="menu_btn"><span class="visually-hidden">Меню навигации</span>
-                <svg width="50" height="50" viewBox="0 0 90 71" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="svg svg--stroke">
-                    <path d="M5 5L 85 5" stroke="#ffffff" stroke-width="8.5" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <animate begin="animation.begin" attributeName="d" values="M5 5L 85 5;M15 10 L 70 60" dur="0.3s"
-                            fill="freeze" />
-                        <animate begin="reverseAnimation.begin" attributeName="d" values="M15 10 L 70 60;M5 5L 85 5"
-                            dur="0.3s" fill="freeze" />
-                    </path>
-                    <path d="M5 35L 85 35" stroke="#ffffff" stroke-width="8.5" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <animate begin="animation.begin" attributeName="d" values="M5 35L 85 35;M45 35 L 45 35;"
-                            dur="0.3s" fill="freeze" />
-                        <animate begin="reverseAnimation.begin" attributeName="d" values="M45 35 L 45 35;M5 35L 85 35"
-                            dur="0.3s" fill="freeze" />
-                    </path>
-                    <path d="M5 66L 85 66" stroke="#ffffff" stroke-width="8.5" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <animate begin="animation.begin" attributeName="d" values="M5 66L 85 66  ;M15 60 L 70 10"
-                            dur="0.3s" fill="freeze" />
-                        <animate begin="reverseAnimation.begin" attributeName="d" values="M15 60 L 70 10;M5 66L 85 66"
-                            dur="0.3s" fill="freeze" />
-                    </path>
-                    <circle cx="45" cy="45" r="50" fill="white" fill-opacity="0">
-                        <animate dur="0.01s" id="animation" attributeName="r" values="50; 0" fill="freeze"
-                            begin="click" />
-                        <animate dur="0.01s" attributeName="r" values="0; 50" fill="freeze"
-                            begin="reverseAnimation.end" />
-                    </circle>
-                    <circle cx="45" cy="45" r="0" fill="white" fill-opacity="0">
-                        <animate dur="0.001s" id="reverseAnimation" attributeName="r" values="50; 0" fill="freeze"
-                            begin="click" />
-                        <animate dur="0.001s" attributeName="r" values="0; 50" begin="animation.end" fill="freeze" />
-                    </circle>
-                </svg>
+            <button class="btn-nav" id="menu_btn">
+                <span class="visually-hidden">Меню навигации</span>
+                <span></span>
             </button>
         </div>
     </header>
@@ -186,7 +153,7 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <!-- <section>
             <div class="container">
                 <form id="feedback_form">
                     <h2>Узнай стоимость ремонта!</h2>
@@ -196,7 +163,7 @@
                     <button type="submit">Отправить заявку</button>
                 </form>
             </div>
-        </section>
+        </section> -->
     </main>
     <footer id="contacts">
         <div class="container">
