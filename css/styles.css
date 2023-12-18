@@ -85,13 +85,15 @@ nav {
   text-align: center;
 }
 
-.adv_cards {
-  display: grid;
+.advantages_cards {
+  /* display: grid; */
+  display: flex;
+  flex-wrap: wrap;
   gap: 30px;
-  grid-template-columns: repeat(1, 1fr);
+  /* grid-template-columns: repeat(1, 1fr); */
 }
 
-.adv_cards .card img {
+.advantages_cards .card img {
   max-width: 70%;
   margin: auto;
 }
@@ -385,7 +387,7 @@ form button {
     margin-top: -3em;
   }
 
-  .adv_cards {
+  .advantages_cards {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(2, 1fr);
@@ -400,7 +402,7 @@ form button {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
   .container {
     padding-left: 40px;
     padding-right: 40px;
@@ -434,7 +436,7 @@ form button {
     gap: 10px;
   }
 
-  .adv_cards {
+  .advantages_cards {
     gap: 5em;
     grid-template-columns: repeat(3, 1fr);
   }
